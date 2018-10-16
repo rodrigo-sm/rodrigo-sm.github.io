@@ -1,0 +1,37 @@
+body{
+
+	background:#d2d2c1 url(imagens/fundo.png);
+	font: 16 px Arial, Helvetica, sans-serif;
+}
+#principal{
+	width: 900px;	
+}
+#barra{
+	background: #c5c5b2;
+	padding: 18px;
+}
+
+#conteudo{
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #4b566a;
+	padding: 5px;
+	font-weight: bold;
+}
+
+h1{
+	color: #828271;
+	font-size: 1.8	em;
+}
+
+#rodape{
+	text-align-last: center;
+}
+
+.img-campanha{
+	border:  12px solid #c5c5b2;
+}

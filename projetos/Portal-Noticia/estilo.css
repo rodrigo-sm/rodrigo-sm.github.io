@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	background: #fff url(imagens/fundo.png) repeat-x;		
+}
+
+#container{
+	width: 920px;
+	margin: 10px auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/* Cabeçalho */
+
+.logo{
+	float: left;
+}
+
+.detalhe{
+	float:right;
+}
+/*menu*/
+.barra-navegacao{
+	clear: left;
+}
+
+.barra-navegacao ul li{
+	list-style: none;
+	float: left;
+	margin-top: 30px;
+}
+
+.barra-navegacao li a{
+	background: #920F0F url(imagens/divisor.png) repeat-y right;
+	color: white;
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 15px;
+	line-height: 30px;
+	height: 30px;
+}
+
+ul #atual a{
+	background: #EF3939;
+}
+
+ul #ultimo a{
+	background: #920F0F;
+}
+.barra-navegacao ul li a:hover{
+	background: #EF3939;
+}
+
+/* Barra lateral */
+.barra-lateral{
+	float: left;
+	width: 280px;
+	background: url(imagens/fundo-caixa.png);
+}
+
+/* Entrevista */
+.barra-entrevista{
+	margin: 10px 10px;
+}
+
+.barra-entrevista h3{
+	padding: 3px;
+	background: #070F34;
+	color: white;
+}
+
+.barra-entrevista ul{
+	margin-top: 10px;
+	background: white;
+	list-style: none;
+}
+
+.barra-entrevista ul li{
+	padding: 10px;
+}
+
+.barra-entrevista a{
+	color: black;
+	text-decoration: none;
+}
+
+.barra-entrevista a:hover{
+	background: url(imagens/marcador.png) no-repeat left top;
+	padding-left: 25px;
+	color: #D7D7D8;
+}
+
+/*Cadastro*/
+.cadastro{
+	margin: 10px 10px;
+}
+
+h3{
+	padding: 3px;
+	background: #070F34;
+	color: white;
+}
+
+.cadastro form{
+	background: white;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.cadastro label{
+	font-size: 1.2em;
+	display: block;
+}
+
+.cadastro input[type="text"]{
+	padding: 10px;
+}
+
+.cadastro input[type="submit"]{
+	background: #6F0406;
+	color:white;
+	padding: 10px;
+	border: 1px solid black;
+}
+/* Conteudo */
+.conteudo{
+	float: right;
+	width: 620px;
+}
+
+/*Conteudo da esquerda*/
+.primario{
+	width: 280px;
+	float: left;
+	background: url(imagens/fundo-caixa.png);
+	padding: 10px;
+}
+
+.primario img{
+	width: 100%;
+	margin-top: 10px;
+}
+/*Seçao ultima entrevista*/
+.entrevista{
+	padding: 10px;
+	margin-top: 10px;
+	background: white;
+	margin-bottom: 10px;
+}
+
+.entrevista h4{
+	background: #7B0709;
+	text-transform: uppercase;
+	border: 1px solid black;
+	display: inline;
+	padding: 2px;
+	height: 3px;
+	line-height: 3px;
+}
+
+/*Seçao Mundo*/
+.mundo{
+	padding: 10px;
+	margin-top: 10px;
+	background: white;
+}
+
+
+.img-mundo img{
+	float: left;
+	width: 46%;
+	display: inline;
+	background-position: top;
+	margin: 0;
+}
+
+.txt-mundo{
+	float: right;
+	width: 50%;
+	display: inline;
+	font-size: 0.8em;
+
+}
+
+.txt-mundo h4{
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+
+.txt-mundo h4{
+	color:#45AFE6;
+}
+.txt-mundo p{
+	color: black;
+}
+
+hr{
+	margin: 10px 0;
+}
+
+/*Conteudo da direita*/
+.secundario{
+	width: 280px;
+	float: right;
+	background: url(imagens/fundo-caixa.png);
+	padding: 10px;
+}
+
+/*Seção destaque*/
+.destaque{
+	padding: 10px;
+	margin-top: 10px;
+	background: white;
+	margin-bottom: 10px;
+}
+
+.destaque  h4{
+	border: 1px solid black;
+	background: #EF0B0F;
+	text-transform: uppercase;
+	padding: 3px;
+	display: inline;
+	color: white;
+}
+
+.destaque img{
+	margin-top: 10px;
+	width: 100%;
+}
+
+/*Noticia recente*/
+.recente{
+	padding: 10px;
+	margin-top: 10px;
+	background: white;
+}
+/*Rodape*/
+.rodape{
+	clear: both; 
+	margin-top: 800px;
+	background: #070F34;
+	color: white;
+	padding: 20px;
+	font-size: 0.8em;
+	padding-left: 100px;
+}
+/*corpo do conteudo*/
+.corpo{
+	margin: 70px 0;
+}
+
+/*Pagina Nova legislaçao*/
+.conteudo1{
+	background: url(imagens/fundo-caixa.png);
+	margin: auto;
+	padding: 10px;
+}
+
+.sec-legis{
+	background: white;
+	padding: 10px;
+}
+
+
+.sec-legis h4{
+	background: red;
+	color: white;
+	padding: 3px;
+	display: inline;
+	border: 1px solid black;
+	text-transform: uppercase;
+}
+.sec-legis img{
+	width: 100%;
+}
+
+.rodape1{
+	clear: both; 
+	background: #070F34;
+	color: white;
+	padding: 20px;
+	font-size: 0.8em;
+	padding-left: 100px;
+}
+
+/*Pagina Brasil*/
+.width{
+	width: 100%;
+}

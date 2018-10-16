@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	background: url(imagens/bg.png);		
+}
+
+#container{
+	min-width: 960px;
+	max-width: 1080px;
+	width: 100%;
+	margin: 10px auto;
+}
+
+/*Inicio cabeçalho*/
+
+#cabecalho{
+	background: url(imagens/topo-imagem-principal.png);
+	height: 250px;
+}
+
+/*Logo*/
+#logo{
+	float: left;
+	margin: 20px;
+}
+
+/*Barra de navegacao*/
+#navegacao{
+	background: url(imagens/topo-imagem-lateral.png);
+	height: 250px;
+	width: 46%;
+	float: right;
+}
+
+/*Formulario*/
+#form{
+	float: right;
+	margin: 10px;
+	padding: 5px 0;
+	border-top: 1px solid #946610;
+	border-bottom: 1px solid #946610;
+}
+
+label{
+	color: #946610;
+}
+
+input{
+	background: #946610;;
+	color: #EAAD3D;
+	border:  #946610;
+	padding: 3px;
+}
+
+/*Menu*/
+#menu{
+	float: right;
+}
+
+#menu-list{
+	float: left;
+	margin-right: 68px;
+}
+
+#menu-list ul li{
+	list-style: none;
+	margin: 15px 0;
+	font-size: 0.9em;
+}
+
+#menu-list ul li a{
+	text-decoration: none;
+	color: #946610;
+	padding: 5px;
+}
+
+#menu-list ul li a:hover{
+	background: #FFD37F;
+}
+
+
+#menu-img{
+	float: right;
+}
+
+/*Conteudo*/
+
+#conteudo{
+	background: url(imagens/bg-container.png) center top;
+}
+
+#area-principal{
+	margin: 0;
+	background:  url(imagens/bg-area-principal.png) repeat-x left top;
+	padding:20px 20px;
+	width: 46%;
+	float: left;
+
+}
+
+#area-principal h3{
+	color: #946610;
+}
+
+#area-lateral{
+	background:  url(imagens/bg-area-lateral.png) repeat-x left top;
+	padding:30px 20px;
+	width: 46%;
+	float: right;
+}
+
+#area-lateral div img{
+	width: 100%;
+}
+
+#area-lateral .img{
+	width: 30%;
+	float: left;
+}
+
+#area-lateral .txt{
+	background: url(imagens/ornamento.png) no-repeat right top;
+	padding-top: 10px;
+	width: 67%;
+	float: right;
+}
+
+#area-lateral a{
+	background: url(imagens/ornamento.png);
+}
+
+#area-lateral h4{
+	color: #946610;
+}
+
+#area-lateral p{
+	color:black;
+}
+
+#area-lateral hr{
+	margin: 7px 0;
+}
+
+/*rodape*/
+#rodape{
+	background: white url(imagens/bg-rodape.png) repeat-x top;
+	padding: 20px;
+	color: #946610;
+	font-weight: normal;
+
+}
+.clear{
+	clear: both;
+}
