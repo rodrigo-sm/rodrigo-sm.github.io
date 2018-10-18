@@ -1,52 +1,105 @@
-.conteudo {
-	height: 100%;
+/* Cabeçalho */
+
+#logo {
+	width: 50px;
 }
 
-.lista li {
-	list-style: none;
+.background {
+	position: relative;
+	background-image: url(imagens/bg.jpg);
+	height: 316px;
+	background-position: bottom;
+	background-attachment: fixed; 
 }
 
-.clear {
-	clear: both;
+.navbar-branca {
+	background: white;
+}
+
+/* Conteudo Principal */
+.cinza1 {
+	background: #ececec;
+}
+
+.cinza2 {
+	background: #f8f8f8;
+}
+w
+
+h2, h3, .c-number {
+    font-size: 1.2rem;
+    line-height: 1.45;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, .c-number, h4, h5, h6 {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #727272;
+}
+
+p {
+	color: #949494;
+}
+
+.sobrepor {
+	z-index: -1;
+}
+
+.pad {
+	padding: 80px 73px 23px;
 }
 
 
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-	.btn-custom {
-		margin: 10px 15px;
-		font-size: 1em;
-	}
+ a {
+	color: #949494;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-	h1 {
-		font-size: 3em;
-	}
-	.btn-custom {
-		margin: 10px 15px;
-	}
+/* Contato */
+#contato a:hover {
+	color: blue;
 }
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-	h1 {
-		font-size: 4em;
-	}
+
+/* Rodape */
+.botao {
+	font-size: 30px;
+	margin: 25px;
 }
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	h1 {
-		font-size: 5em;
-	}
+.titulo-rodape {
+	font-weight: 0;
+	font-size: 0.875em;
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	h1 {
-		font-size: 6em;
-	}
+/* Linha do tempo */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
 }
-
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
