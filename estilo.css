@@ -24,7 +24,7 @@
 .cinza2 {
 	background: #f8f8f8;
 }
-w
+
 
 h2, h3, .c-number {
     font-size: 1.2rem;
@@ -102,4 +102,8 @@ ul.timeline > li:before {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+.clear {
+    clear: both;
 }
