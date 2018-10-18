@@ -1,4 +1,4 @@
-/* Inicio Cabeçalho */
+/* Cabeçalho */
 
 #logo {
 	width: 50px;
@@ -16,7 +16,7 @@
 	background: white;
 }
 
-/* Fim Cabeçalho */
+/* Conteudo Principal */
 .cinza1 {
 	background: #ececec;
 }
@@ -24,14 +24,7 @@
 .cinza2 {
 	background: #f8f8f8;
 }
-
-.cinza3 {
-	background: #fbfbfb;
-}
-
-.cinza4 {
-	color: #727272;
-}
+w
 
 h2, h3, .c-number {
     font-size: 1.2rem;
@@ -42,17 +35,39 @@ h2, h3, .c-number {
 h1, h2, h3, .c-number, h4, h5, h6 {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
+    color: #727272;
 }
 
-.number {
-	color: rgb(70, 130, 180);
+p {
+	color: #949494;
 }
-
 
 .sobrepor {
 	z-index: -1;
 }
 
-.pa{
-	padding: 80px;
+.pad {
+	padding: 80px 73px 23px;
+}
+
+
+ a {
+	color: #949494;
+}
+
+/* Contato */
+#contato a:hover {
+	color: blue;
+}
+
+
+/* Rodape */
+.botao {
+	font-size: 30px;
+	margin: 25px;
+}
+
+.titulo-rodape {
+	font-weight: 0;
+	font-size: 0.875em;
 }
