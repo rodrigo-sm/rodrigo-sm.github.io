@@ -53,12 +53,18 @@ p {
 a {
     color: #727272;
 }
- 
-/* Contato */
-#contato a:hover {
-	color: blue;
+
+#nav-principal a {
+    border-bottom: 0.5px solid gray;
 }
 
+#nav-principal a:hover,
+main a:hover {
+    text-decoration: none;
+    color: #007bff!important;
+    border-bottom: 1.5px solid #007bff;
+    box-sizing: border-box;
+}
 
 /* Rodape */
 .botao {
@@ -102,4 +108,3 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
-
