@@ -8,7 +8,7 @@
 	position: relative;
 	background-image: url(imagens/bg.jpg);
 	height: 316px;
-	background-position: bottom;
+	background-position: left;
 	background-attachment: fixed; 
 }
 
@@ -50,11 +50,10 @@ p {
 	padding: 80px 73px 23px;
 }
 
-
- a {
-	color: #949494;
+a {
+    color: #727272;
 }
-
+ 
 /* Contato */
 #contato a:hover {
 	color: blue;
@@ -104,6 +103,3 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
-.clear {
-    clear: both;
-}
