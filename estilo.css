@@ -42,10 +42,6 @@ p {
 	color: #949494;
 }
 
-.sobrepor {
-	z-index: -1;
-}
-
 .pad {
 	padding: 80px 73px 23px;
 }
@@ -54,15 +50,11 @@ a {
     color: #727272;
 }
 
-#nav-principal a {
-    border-bottom: 0.5px solid gray;
-}
-
 #nav-principal a:hover,
 main a:hover {
     text-decoration: none;
     color: #007bff!important;
-    border-bottom: 1.5px solid #007bff;
+    border-bottom: 0.5px solid #007bff;
     box-sizing: border-box;
 }
 
