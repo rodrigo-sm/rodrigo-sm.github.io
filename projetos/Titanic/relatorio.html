@@ -11806,7 +11806,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="prompt input_prompt">In&nbsp;[131]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -11839,10 +11839,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[99]:</div>
+<div class="prompt input_prompt">In&nbsp;[132]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_titanic</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;Ticket&#39;</span><span class="p">,</span> <span class="s1">&#39;Cabin&#39;</span><span class="p">,</span> <span class="s1">&#39;PassengerId&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_titanic</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;Ticket&#39;</span><span class="p">,</span> <span class="s1">&#39;Cabin&#39;</span><span class="p">,</span> <span class="s1">&#39;PassengerId&#39;</span><span class="p">,</span> <span class="s1">&#39;Embarked&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11860,10 +11860,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[100]:</div>
+<div class="prompt input_prompt">In&nbsp;[133]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_titanic</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;sobreviveu&#39;</span><span class="p">,</span> <span class="s1">&#39;classe&#39;</span><span class="p">,</span> <span class="s1">&#39;nome&#39;</span><span class="p">,</span> <span class="s1">&#39;sexo&#39;</span><span class="p">,</span> <span class="s1">&#39;idade&#39;</span><span class="p">,</span> <span class="s1">&#39;irmaos_conjuges&#39;</span><span class="p">,</span> <span class="s1">&#39;pais_criancas&#39;</span><span class="p">,</span> <span class="s1">&#39;tarifa&#39;</span><span class="p">,</span> <span class="s1">&#39;embarque&#39;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_titanic</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;sobreviveu&#39;</span><span class="p">,</span> <span class="s1">&#39;classe&#39;</span><span class="p">,</span> <span class="s1">&#39;nome&#39;</span><span class="p">,</span> <span class="s1">&#39;sexo&#39;</span><span class="p">,</span> <span class="s1">&#39;idade&#39;</span><span class="p">,</span> <span class="s1">&#39;irmaos_conjuges&#39;</span><span class="p">,</span> <span class="s1">&#39;pais_criancas&#39;</span><span class="p">,</span> <span class="s1">&#39;tarifa&#39;</span><span class="p">]</span>
 <span class="n">df_titanic</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -11877,7 +11877,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[100]:</div>
+<div class="prompt output_prompt">Out[133]:</div>
 
 
 
@@ -11908,7 +11908,6 @@ div#notebook {
       <th>irmaos_conjuges</th>
       <th>pais_criancas</th>
       <th>tarifa</th>
-      <th>embarque</th>
     </tr>
   </thead>
   <tbody>
@@ -11922,7 +11921,6 @@ div#notebook {
       <td>1</td>
       <td>0</td>
       <td>7.2500</td>
-      <td>S</td>
     </tr>
     <tr>
       <th>1</th>
@@ -11934,7 +11932,6 @@ div#notebook {
       <td>1</td>
       <td>0</td>
       <td>71.2833</td>
-      <td>C</td>
     </tr>
     <tr>
       <th>2</th>
@@ -11946,7 +11943,6 @@ div#notebook {
       <td>0</td>
       <td>0</td>
       <td>7.9250</td>
-      <td>S</td>
     </tr>
     <tr>
       <th>3</th>
@@ -11958,7 +11954,6 @@ div#notebook {
       <td>1</td>
       <td>0</td>
       <td>53.1000</td>
-      <td>S</td>
     </tr>
     <tr>
       <th>4</th>
@@ -11970,7 +11965,6 @@ div#notebook {
       <td>0</td>
       <td>0</td>
       <td>8.0500</td>
-      <td>S</td>
     </tr>
   </tbody>
 </table>
@@ -11993,7 +11987,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[101]:</div>
+<div class="prompt input_prompt">In&nbsp;[134]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_titanic</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -12015,7 +12009,7 @@ div#notebook {
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 RangeIndex: 891 entries, 0 to 890
-Data columns (total 9 columns):
+Data columns (total 8 columns):
 sobreviveu         891 non-null int64
 classe             891 non-null int64
 nome               891 non-null object
@@ -12024,9 +12018,8 @@ idade              714 non-null float64
 irmaos_conjuges    891 non-null int64
 pais_criancas      891 non-null int64
 tarifa             891 non-null float64
-embarque           889 non-null object
-dtypes: float64(2), int64(4), object(3)
-memory usage: 62.7+ KB
+dtypes: float64(2), int64(4), object(2)
+memory usage: 55.8+ KB
 </pre>
 </div>
 </div>
@@ -12045,7 +12038,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="prompt input_prompt">In&nbsp;[135]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_titanic</span><span class="p">[</span><span class="s1">&#39;idade&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -12068,7 +12061,7 @@ memory usage: 62.7+ KB
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 RangeIndex: 891 entries, 0 to 890
-Data columns (total 9 columns):
+Data columns (total 8 columns):
 sobreviveu         891 non-null int64
 classe             891 non-null int64
 nome               891 non-null object
@@ -12077,9 +12070,8 @@ idade              891 non-null float64
 irmaos_conjuges    891 non-null int64
 pais_criancas      891 non-null int64
 tarifa             891 non-null float64
-embarque           889 non-null object
-dtypes: float64(2), int64(4), object(3)
-memory usage: 62.7+ KB
+dtypes: float64(2), int64(4), object(2)
+memory usage: 55.8+ KB
 </pre>
 </div>
 </div>
@@ -12098,7 +12090,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[103]:</div>
+<div class="prompt input_prompt">In&nbsp;[136]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#  Encontra a quantidade de sobreviventes e mortos de cada sexo utilizando o groupby</span>
@@ -12113,7 +12105,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[104]:</div>
+<div class="prompt input_prompt">In&nbsp;[137]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Criação do grafico</span>
@@ -12154,13 +12146,13 @@ memory usage: 62.7+ KB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[104]:</div>
+<div class="prompt output_prompt">Out[137]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x1d76eed8eb8&gt;</pre>
+<pre>&lt;matplotlib.legend.Legend at 0x1d76f23b358&gt;</pre>
 </div>
 
 </div>
@@ -12194,7 +12186,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[105]:</div>
+<div class="prompt input_prompt">In&nbsp;[138]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criação da variavel familia que vai armazena quantidade de pais/filhos/irmãos/cônjuges de cada passageiro</span>
@@ -12272,7 +12264,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[106]:</div>
+<div class="prompt input_prompt">In&nbsp;[139]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># função para determinar a porcentagem de sobrevivência por faixa etaria</span>
@@ -12293,7 +12285,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="prompt input_prompt">In&nbsp;[140]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criação do grafico de pizza</span>
@@ -12312,7 +12304,7 @@ memory usage: 62.7+ KB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[107]:</div>
+<div class="prompt output_prompt">Out[140]:</div>
 
 
 
@@ -12352,7 +12344,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[108]:</div>
+<div class="prompt input_prompt">In&nbsp;[141]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">primeira_classe</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">df_titanic</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s1">&#39;classe == 1&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()[</span><span class="s1">&#39;tarifa&#39;</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>
@@ -12398,7 +12390,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[109]:</div>
+<div class="prompt input_prompt">In&nbsp;[142]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># determinar a porcentagem de sobreviventes por cada classe</span>
@@ -12420,7 +12412,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[110]:</div>
+<div class="prompt input_prompt">In&nbsp;[143]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criação do grafico de pizza</span>
@@ -12439,7 +12431,7 @@ memory usage: 62.7+ KB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[110]:</div>
+<div class="prompt output_prompt">Out[143]:</div>
 
 
 
@@ -12479,7 +12471,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[111]:</div>
+<div class="prompt input_prompt">In&nbsp;[144]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># determinar a quantidade de sobreviventes e mortos de passsageiros que nao pagaram a passagem</span>
@@ -12493,7 +12485,7 @@ memory usage: 62.7+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[112]:</div>
+<div class="prompt input_prompt">In&nbsp;[145]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criação do grafico de barra</span>
@@ -12557,14 +12549,13 @@ Que dos 891 passageiros sobreviveram apenas 342, sendo 109 homens e 233 mulheres
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Limita&#231;&#245;es">Limita&#231;&#245;es<a class="anchor-link" href="#Limita&#231;&#245;es">&#182;</a></h1><p>Observou-se que algumas propriedas não possuiam valores para alguns do passageiros. Estas caracteristicas são Age, Cabin e Embarked.</p>
+<h1 id="Limita&#231;&#245;es">Limita&#231;&#245;es<a class="anchor-link" href="#Limita&#231;&#245;es">&#182;</a></h1><p>Foi removido as colunas Cabin, Ticket, Embarked por não serem utilizada durante o processo de analise. Observou-se tambem que a coluna Idade tinha valores ausentes.</p>
 <ul>
 <li><p>Medida tomada:</p>
 
-<pre><code>  * Age: Os valores ausentos foram preenchidos com o numero -1, porque não atrapalharia no processo de analise.
-  * Cabin e Embarked: Como estas características não foram consideradas na fase de análise optou-se por não alterá-las.</code></pre>
+<pre><code>  * Idade: Os valores ausentos foram preenchidos com o numero -1, porque não atrapalharia no processo de analise.</code></pre>
 </li>
-<li><p>Foi tambem feito o ajuste dos rotulos das colunas, colocando todas as letras em minusculos, sublinhado entre duas palavras e remoção de espaços nas beiradas se existisse.</p>
+<li><p>Foi tambem feito a tradução dos rotulos das colunas.</p>
 </li>
 </ul>
 
