@@ -48,15 +48,15 @@ body{
 	height: 30px;
 }
 
-ul #atual a{
+ul #atual a,
+ul #ultimo a:hover,
+.barra-navegacao ul li a:hover,
+ul #ultimo-atual a{
 	background: #EF3939;
 }
 
 ul #ultimo a{
 	background: #920F0F;
-}
-.barra-navegacao ul li a:hover{
-	background: #EF3939;
 }
 
 /* Barra lateral */

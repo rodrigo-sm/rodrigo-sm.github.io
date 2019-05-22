@@ -9,7 +9,11 @@ function calcular(tipo, valor) {
             case '-':
             case '+':
             case '.':
-              document.getElementById('campo').value += valor
+              campo = document.getElementById('campo').value
+              tam = campo.length
+              alert(campo)
+              if(campo[tam-1] !== '/' || campo[tam-1] !== '*' || campo[tam-1] !== '-' || campo[tam-1] !== '+' || campo[tam-1] !== '.')
+                document.getElementById('campo').value += valor
               break;
             case '=':
               document.getElementById('campo').value = eval(document.getElementById('campo').value)
